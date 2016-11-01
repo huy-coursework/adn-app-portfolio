@@ -5,7 +5,24 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorButtonNormal</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:buttonStyle">@style/ProjectButtonTheme</item>
+    </style>
+
+    <!-- Capstone button theme. -->
+    <style name="ProjectButtonTheme" parent="Widget.AppCompat.Button.Colored">
+        <!-- Customize your theme here. -->
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Capstone button theme. -->
+    <style name="ProjectButtonTheme.Capstone">
+        <!-- Customize your theme here. -->
+        <item name="colorButtonNormal">@color/colorButtonCapstone</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:backgroundTint">@color/colorButtonCapstone</item>
     </style>
 
 </resources>
